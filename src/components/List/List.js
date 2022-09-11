@@ -7,7 +7,6 @@ export const List = ({places}) => {
         {places?.map((place,index)=>(
        <PlaceDetail key={index}  place={place}/>
         ))}
-
     </div>
   )
 }
