@@ -1,41 +1,6 @@
-
-
-@keyframes fade1 {
-    0% {
-      opacity: 1; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 0; }
-     }
-  
-  @keyframes fade2 {
-    0% {
-      opacity: 0; }
-    50% {
-      opacity: 1; }
-    100% {
-      opacity: 0; }
-       }
-  
-  @keyframes fade3 {
-    0% {
-      opacity: 0; }
-    50% {
-      opacity: 0; }
-    100% {
-      opacity: 1; }
-     }
-  
-
-
-/* .header {
-        height: 95vh;
-        position: relative;
-}  */
-      
+    
 .header__slider-1 {
-        background-image: linear-gradient(to right bottom, rgba(165, 232, 246, 0.2), rgba(20, 61, 165, 0.5)), url(../../../public/images/attraction.jpg);
+        background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../public/images/attraction.jpg);
         position: absolute;
         top: 0;
         left: 0;
@@ -43,28 +8,4 @@
         width: 100%;
         background-size:cover;
         background-position:center;
-        animation: fade1 10s infinite; 
-}
-.header__slider-2 {
-    background-image: linear-gradient(to right bottom, rgba(165, 232, 246, 0.2), rgba(20, 61, 165, 0.5)), url(../../../public/images/restaurant.jpg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size:cover;
-    background-position:center;
-    animation: fade2 10s infinite; 
-}
-
-.header__slider-3 {
-    background-image: linear-gradient(to right bottom, rgba(165, 232, 246, 0.2), rgba(20, 61, 165, 0.5)), url(../../../public/images/hotels.jpg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size:cover;
-    background-position:center;
-    animation: fade3 10s infinite; 
 }
