@@ -11,10 +11,16 @@ export const LocationOPtion = () => {
         <p className="text-[1rem] font-semibold">Nigeria, Lagos</p>
       </div>
     </div>
-    <select className='h-[2.5rem] text-[1.5rem] w-[15rem] font-semibold text-1[1.2rem] px-2 border-2 rounded-md border-gray-400 shadow-xl text-blue-500  outline-none'>
+    <select className='h-[2.5rem] text-[1.5rem] w-[10rem] font-semibold text-1[1.2rem] px-2 border-2 rounded-md border-gray-400 shadow-xl text-blue-500  outline-none'>
         <option value="restaurant" className=" font-semibold text-[1.2rem]">Restaurant</option>
         <option value="hotels" className="font-semibold text-[1.2rem]">Hotels</option>
         <option value="attractions" className=" font-semibold text-[1.2rem]">Attractions</option>
+    </select>
+    <select className='h-[2.5rem] text-[1rem] w-[7rem] font-semibold text-1[1.2rem] px-2 border-2 rounded-md border-gray-400 shadow-xl text-gray-700  outline-none'>
+        <option value="0" className=" font-semibold text-[1rem]">Rating</option>
+        <option value="3.0" className=" font-semibold text-[1rem]">Above 3</option>
+        <option value="4.0" className="font-semibold text-[1rem]">Above 4</option>
+        <option value="4.5" className=" font-semibold text-[1rem]">Above 4.5</option>
     </select>
     </div>
   )

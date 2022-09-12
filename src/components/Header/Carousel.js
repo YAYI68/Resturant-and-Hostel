@@ -6,7 +6,7 @@ import "./Carousel.css";
 
 export const Carousel = () => {
   return (
-    <div className="h-[30rem] w-full relative">
+    <div className="h-[35rem] w-full relative">
         <div className="relative w-full h-full">      
           <div className="header__slider-1">
             <div className="w-full h-full relative flex flex-col items-center justify-center">

@@ -10,6 +10,7 @@ import { LocationOPtion } from './components/List/LocationOPtion';
 
 
 
+
 function App() {
   const [places, setPlaces] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -32,11 +33,12 @@ function App() {
       <Carousel />
       <main className="w-full">
         <section className='w-full flex '>
-           <aside className='basis-[50%] h-[80vh]  flex flex-col'>
-            <LocationOPtion />
+           <aside className='basis-[50%] h-[100vh] flex flex-col'>
+            {/* <LocationOPtion /> */}
             <List places={places} />
+            <List  />
           </aside>
-          <div className='basis-[50%] h-[80vh] bg-blue-700'>
+          <div className='basis-[50%] h-[100vh] bg-blue-700'>
             <Map/>
          </div>
           
